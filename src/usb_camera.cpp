@@ -71,7 +71,7 @@ void CameraNode::ImageCallback() {
         }
         
         // Publish the image message and increment the frame_id.
-        RCLCPP_INFO(nh_->get_logger(), "Publishing image");
+        RCLCPP_INFO_ONCE(nh_->get_logger(), "Publishing image");
         
         // Put the message into a queue to be processed by the middleware.
         // This call is non-blocking.
