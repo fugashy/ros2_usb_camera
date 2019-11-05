@@ -21,6 +21,7 @@
   <build_depend>cv_bridge</build_depend>
   <build_depend>image_transport</build_depend>
   <build_depend>camera_calibration_parsers</build_depend>
+  <build_depend>camera_info_manager</build_depend>
 
   <exec_depend>example_interfaces</exec_depend>
   <exec_depend>launch_ros</exec_depend>
@@ -33,6 +34,7 @@
   <exec_depend>cv_bridge</exec_depend>
   <exec_depend>image_transport</exec_depend>
   <exec_depend>camera_calibration_parsers</exec_depend>
+  <exec_depend>camera_info_manager</exec_depend>
 
 
   <export>
